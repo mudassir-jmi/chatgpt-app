@@ -18,7 +18,7 @@ function App() {
   },[posts]);
    // API CAll FRONTEND TO BACKEND
   const fetchBotResponse = async () => {
-    const {data} = await axios.post("http://localhost:4000",{input},{
+    const {data} = await axios.post("https://chatgpt-app-584v.onrender.com",{input},{
         headers: {
             "Content-Type": "application/json",
         }
